@@ -15,8 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import bny.vehicle.VehicleManagementSystem.entity.Employee;
 import bny.vehicle.VehicleManagementSystem.services.EmployeeService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
+@Tag(name = "Employee", description = "CRUD for employee")
 public class EmployeeController {
 	
 	@Autowired
