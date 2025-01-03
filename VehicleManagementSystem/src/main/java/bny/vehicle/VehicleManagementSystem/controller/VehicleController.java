@@ -13,8 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import bny.vehicle.VehicleManagementSystem.entity.Vehicle;
 import bny.vehicle.VehicleManagementSystem.services.VehicleService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
+@Tag(name = "Vehicle", description = "CRUD for vehicle")
 public class VehicleController {
 
 	@Autowired
