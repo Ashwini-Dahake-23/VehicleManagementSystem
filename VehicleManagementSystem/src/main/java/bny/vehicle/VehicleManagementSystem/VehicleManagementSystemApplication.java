@@ -8,7 +8,6 @@ public class VehicleManagementSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(VehicleManagementSystemApplication.class, args);
-	
-	System.out.println("Application started successfully");
+		System.out.println("Application started successfully");
 	}
- }
+}
